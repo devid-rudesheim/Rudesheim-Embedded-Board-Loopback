@@ -1,11 +1,11 @@
 {
-  "name": "Rudesheim-Board-Loopback",
+  "name": "Rudesheim-Embedded-Board-Loopback",
   "version": "0.0.1",
   "description": "Rudesheim layer 2: host-side test double Board implementation for unit testing.",
   "frameworks": "*",
   "platforms": "*",
   "dependencies": {
-    "Rudesheim-Base": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Base.git#v0.0.1",
-    "Rudesheim-Foundation": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Foundation.git#v0.0.1"
+    "Rudesheim-Embedded-Base": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Base.git#v0.0.1",
+    "Rudesheim-Embedded-Foundation": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Foundation.git#v0.0.1"
   }
 }
