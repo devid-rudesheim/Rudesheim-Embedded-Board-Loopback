@@ -5,6 +5,7 @@
   "frameworks": "*",
   "platforms": "*",
   "dependencies": {
-    "Rudesheim-Base": "*"
+    "Rudesheim-Base": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Base.git#v0.0.1",
+    "Rudesheim-Foundation": "https://github.com/devid-rudesheim/Rudesheim-Embedded-Foundation.git#v0.0.1"
   }
 }
