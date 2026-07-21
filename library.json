@@ -1,0 +1,10 @@
+{
+  "name": "Rudesheim-Board-Loopback",
+  "version": "0.0.1",
+  "description": "Rudesheim layer 2: host-side test double Board implementation for unit testing.",
+  "frameworks": "*",
+  "platforms": "*",
+  "dependencies": {
+    "Rudesheim-Base": "*"
+  }
+}
