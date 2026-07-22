@@ -22,6 +22,9 @@ namespace Rudesheim::Embedded
     {
     }
 
+    virtual auto ConnectWifi( Credentials const &credentials ) const -> IpAddress override;
+    virtual auto DisconnectWifi() const -> void override;
+
     auto Reset() const -> void;
   };
 }

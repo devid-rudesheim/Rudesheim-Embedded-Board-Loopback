@@ -158,6 +158,15 @@ namespace Rudesheim::Embedded
     return Class< Option::Off >::SoleObject();
   }
 
+  auto TestBoard::ConnectWifi( Credentials const & ) const -> IpAddress
+  {
+    return IpAddress( 127, 0, 0, 1 );
+  }
+
+  auto TestBoard::DisconnectWifi() const -> void
+  {
+  }
+
   auto TestBoard::Reset() const -> void
   {
     Class< Option::Digital >::SoleObject().Clear();
