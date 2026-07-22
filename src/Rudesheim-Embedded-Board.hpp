@@ -18,7 +18,7 @@ namespace Rudesheim::Embedded
     virtual auto SteadyOn() const -> Option::Steady const & override;
     virtual auto SteadyOff() const -> Option::Steady const & override;
 
-    virtual auto Wait( Duration duration ) const -> void override
+    virtual auto Wait( Duration const &duration ) const -> void override
     {
     }
 
